@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="adaptive.css">
+	<title>Romaschka</title>
+</head>
+<body>
+	<div id = 'sidebar'>
+		<div class="toggle-btn" onclick= "openMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>		
+		<div class="title"><h1>ROMASCHKA</h1></div>
+		<div class="list_menu">
+			<ul>
+				<li><a href = "#">Kosmetyki</a></li>
+				<li><a href = "#">Makijaż</a></li>
+				<li><a href = "#">Perfumeria</a></li>
+				<li><a href = "#">Akcesoria</a></li>
+			</ul>
+			<div class="menu_footer">
+				<p>©Kosmetika Roman 2022</p>
+			</div>
+		</div>
+	</div>
+		<div class="full-background">
+			<img src="nature.jpg">
+		</div>
+	<script>
+		function openMenu() {
+			document.getElementById("sidebar").classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
